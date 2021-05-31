@@ -1,0 +1,68 @@
+.container .show {
+  background-color: brown;
+  width: 300px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.container .show .show-text {
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+}
+
+.container .calc {
+  background-color: bisque;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.container .calc .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .calc .wrap input {
+  border: 1px solid black;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.container .number {
+  background-color: bisque;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.container .number .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .number .wrap input {
+  border: 1px solid black;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.container .number .wrap:nth-child(4) {
+  padding-left: 60px;
+}
+
+.container .number .wrap:nth-child(4) .equal {
+  width: 66px;
+  margin-left: 60px;
+  margin-right: 5px;
+}
+/*# sourceMappingURL=style.css.map */
